@@ -18,7 +18,7 @@ void printtype()//function definition
 void agetype()//function definition
 {
     int age;
-    printf("enter age : ");
+    printf("enter age :- ");
     scanf("%d",&age);
     printf("my age is %d\n",age);
     }
