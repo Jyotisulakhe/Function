@@ -3,6 +3,8 @@ void add();
 void even();
 void odd();
 
+
+//function call
 int main()
 {
 printf("for addition\n");
@@ -23,7 +25,10 @@ if(b%2!=0){
   odd();
 }
 }
-void add(){
+
+
+//defination declaration
+void add(){   
 int a,b,sum;
   printf("enter value");
   scanf("%d",&a);
@@ -33,13 +38,9 @@ int a,b,sum;
   printf("sum is %d\n\n\n",sum);
 }
 void even(){
-
-
-    printf(" given no is even no\n\n\n");
-
+ printf(" given no is even no\n\n\n");
 }
 void odd(){
-
-    printf(" given no is odd no\n\n");
+ printf(" given no is odd no\n\n");
 }
 
