@@ -1,6 +1,7 @@
 #include<stdio.h>
 
 void calculateprice(float value);
+//changes to parameter in function dont change in values in calling function this code these property satisfy
 
 
     int main()
