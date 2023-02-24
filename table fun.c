@@ -8,11 +8,11 @@ int main(){
 int n;
 printf("enter number:");
 scanf("%d",&n);
- printtable( n);
+ printtable( n);//argument/actual parameter
 
 return 0;
 }
-void printtable(int n){
+void printtable(int n){ //parameter/formal parameter
 
 for( int i=1;i<=10;i++)
     printf("%d\n",i*n);
